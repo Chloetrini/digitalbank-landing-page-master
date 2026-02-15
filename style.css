@@ -1,0 +1,58 @@
+body{font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p{
+    color: hsl(233,8%,62%);
+}
+h1,h2{
+    color: hsl(233, 26%, 24%) ;
+}
+@media (min-width:1020px) and (max-width:1250px){
+  .bet{
+    left: 28rem;
+    top: -10rem;
+  }
+  .bet1{
+    left: 8rem;
+    bottom: 7rem;
+    max-width: 35rem;
+  }
+  .an{
+    bottom: 13rem;
+  }
+  .and{
+    bottom: 7rem;
+    left: 2rem;
+  }
+  .and h1{
+    font-size: 2.7rem;
+   
+  }
+  .and p{
+    font-size: 14px;
+    width: 330px;
+  }
+  .me{
+    gap: 24px;
+  }
+  .b{
+    margin: 0;
+  }
+  .sec{
+    margin-top: -7rem;
+  }
+  .y{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .y h1{
+    width: 300px;
+  }
+  
+}
+@media (max-width:650px){
+    .y img{
+        width: 100%;
+    }
+}
